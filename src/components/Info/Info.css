@@ -1,0 +1,203 @@
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 0% 10px 15%;
+    padding: 0px;
+}
+
+.info_droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 15% 10px 0%;
+    padding: 0px;
+}
+
+.tilte{
+    display: block;
+}
+
+.tilte p{
+    float: left;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500; 
+    margin: 10px 0 0 0;
+}
+
+.tilte h1{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500; 
+    margin: 0;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tag_name {
+    border-radius: 10px;
+    background: #FF6060; 
+    padding: 5px;
+}
+
+.tag p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500; 
+    margin: 5px;
+}
+
+.host{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.host p{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500; 
+    margin: 0;
+}
+
+.host img{
+    width: 35%;
+    height: 100%; 
+    border-radius: 50%;
+}
+
+.etoile {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.etoile_plein {
+    display: flex;
+    gap: 10px;
+    color: #FF6060;
+    height: 25px;
+}
+
+.etoile_vide {
+    display: flex;
+    gap: 10px;
+    color: #F6F6F6; 
+    height: 25px;
+}
+
+/* Responsive */
+
+@media (max-width: 1480px) {
+    .info_gauche p {
+        font-size: 16px;
+    }
+    .tilte h1{
+        font-size: 32px;
+    }
+    .tag p{
+        font-size: 14px;
+    }
+    .etoile_plein,
+    .etoile_vide {
+        gap: 10px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .info_gauche p {
+        font-size: 14px;
+    }
+    .tilte h1{
+        font-size: 24px;
+    }
+    .tag p{
+        font-size: 14px;
+    }
+    .etoile_plein,
+    .etoile_vide {
+        gap: 10px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 780px) {
+    .conteneur {
+        flex-direction: column;
+    }
+    .info_droite {
+        flex-direction: row-reverse;
+        margin: 10px 15% 10px 15%;
+    }
+    .info_gauche p {
+        font-size: 14px;
+    }
+    .tilte h1{
+        font-size: 22px;
+    }
+    .host img{
+        width: 35%;
+        height: 90%; 
+    }
+    .tag p{
+        font-size: 12px;
+    }
+    .etoile_plein,
+    .etoile_vide {
+        gap: 5px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteneur {
+        flex-direction: column;
+    }
+    .info_droite {
+        flex-direction: row-reverse;
+        margin: 10px 15% 10px 15%;
+    }
+    .info_gauche p {
+        font-size: 12px;
+    }
+    .tilte h1{
+        font-size: 20px;
+    }
+    .host img{
+        width: 35%;
+        height: 80%; 
+    }
+    .tag p{
+        font-size: 10px;
+    }
+    .etoile_plein,
+    .etoile_vide {
+        gap: 5px;
+        height: 15px;
+    }
+}
