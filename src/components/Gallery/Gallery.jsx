@@ -10,7 +10,7 @@ function Gallery() {
     return (
         <div className="my-Gallery">
         {Data.map((data) => (
-          <Link to={`/logement/${data.id}`} className="carte" key={data.id}>
+          <Link to={`/Projet/${data.id}`} className="carte" key={data.id}>
             <div className="image-container" style={{ backgroundImage: `url(${data.cover})` }}>
                 <p>{data.title}</p>
             </div>

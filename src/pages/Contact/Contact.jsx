@@ -5,7 +5,7 @@ import Dropdown from '../../components/Dropdown/Dropdown';
 
 import Image from '../../assets/Img_Propos.jpg'
 
-import './Propos.css'
+import './Contact.css'
 
 function Propos() {
 

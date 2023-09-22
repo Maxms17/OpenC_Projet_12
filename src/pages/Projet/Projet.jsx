@@ -8,15 +8,15 @@ import Data from '../../data.json'; // Importe les données depuis le fichier JS
 
 import { useParams } from 'react-router-dom';
 import { navigate } from '@reach/router';
-import './Logement.css'
+import './Projet.css'
 
-function Logement() {
+function Projet() {
   const { id } = useParams();
 
   // Recherche du logement correspondant dans les données en utilisant l'ID
-  const logement = Data.find((datas) => datas.id === id);
+  const projet = Data.find((datas) => datas.id === id);
 
-  if (!logement) {
+  if (!projet) {
     // Rediriger vers la page d'erreur lorsque le logement n'est pas trouvé
     navigate("/*");
     window.location.reload();
@@ -25,16 +25,16 @@ function Logement() {
 
   return (
     <Layout>
-      <div key={logement.id}>
-        <Carrousel logement={logement} />
-        <Info logement={logement} />
+      <div key={projet.id}>
+        <Carrousel projet={projet} />
+        <Info projet={projet} />
         <div className='drop'>
-          <Dropdown title={'Description'} para={logement.description}/>
-          <Dropdown title={'Equipement'} para={logement.equipments}/>
+          <Dropdown title={'Description'} para={projet.description}/>
+          <Dropdown title={'Compétence'} para={projet.competence}/>
         </div>
       </div>
     </Layout>
   );
 }
 
-export default Logement;
+export default Projet;

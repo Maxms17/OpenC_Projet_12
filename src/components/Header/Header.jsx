@@ -11,7 +11,7 @@ function Header() {
         <img src={logo} alt='Kasa' className='my-logo' />
         <nav>
             <Link to="/" className={location.pathname === '/' ? 'active-link' : ''}>Accueil</Link>
-            <Link to="/propos" className={location.pathname === '/propos' ? 'active-link' : ''}>A Propos</Link>
+            <Link to="/Contact" className={location.pathname === '/Contact' ? 'active-link' : ''}>Contact</Link>
         </nav>
         </div>
     );

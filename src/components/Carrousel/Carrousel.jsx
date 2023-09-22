@@ -4,30 +4,30 @@ import Image from '../../assets/Vectorfleche.svg';
 
 import './Carrousel.css';
 
-const Carrousel = ({ logement }) => {
+const Carrousel = ({ projet }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const testnumerisation = logement.pictures.length > 1;
+  const testnumerisation = projet.pictures.length > 1;
 
   useEffect(() => {
-    const lastIndex = logement.pictures.length - 1;
+    const lastIndex = projet.pictures.length - 1;
     if (currentIndex < 0) {
       setCurrentIndex(lastIndex);
     } else if (currentIndex > lastIndex) {
       setCurrentIndex(0);
     }
-  }, [currentIndex, logement.pictures]);
+  }, [currentIndex, projet.pictures]);
 
   return (
     <div>
       <div className='carrousel'>
         {testnumerisation && (
           <div className='numerisation'>
-            <p>{currentIndex + 1} / {logement.pictures.length}</p>
+            <p>{currentIndex + 1} / {projet.pictures.length}</p>
           </div>
         )}
         <div className="container">
-        <img src={logement.pictures[currentIndex]} alt='Logement' className='image-fond' />
+        <img src={projet.pictures[currentIndex]} alt='Projet' className='image-fond' />
           {testnumerisation && (
             <>
               <img src={Image} alt='Arrow' className='Image_fleche_Gauche' onClick={() => setCurrentIndex(currentIndex - 1)} />
