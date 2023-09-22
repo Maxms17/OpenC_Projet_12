@@ -10,7 +10,7 @@ import './Home.css'
 function Home() {
     return (
         <Layout>
-            <ImageBanner src={Image} para={ "Chez vous, partout et ailleurs" }/>
+            <ImageBanner src={Image} para={ "Info Maxime" }/>
             <Gallery />
         </Layout>
     )

@@ -1,11 +1,11 @@
-import logo from '../../assets/LOGO.svg'
+//import logo from '../../assets/LOGO.svg'
 import './Footer.css'
 
 function Header() {
+    //<img src={logo} alt='Kasa' className='my-logo_blanc' />
     return (
-        <div className='my-footer'>
-            <img src={logo} alt='Kasa' className='my-logo_blanc' />
-            <p>© 2020 Kasa. All rights reserved</p>
+        <div className='my-footer'>  
+            <p>© DREUX Maxime. All rights reserved</p>
         </div>
     )
 }
