@@ -7,9 +7,7 @@ function Contact() {
 
     return (
         <Layout>
-            <div className="panneau">
-
-            </div>
+            
         </Layout>
     )
 }

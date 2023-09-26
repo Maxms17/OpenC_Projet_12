@@ -1,4 +1,8 @@
 
+.Gallery p {
+	color: black;
+}
+
 .my-Gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -10,7 +14,7 @@
 	border-radius: 25px;
 	background: #F6F6F6; 
 
-	margin: 5% 15%;
+	margin: 0% 15% 5% 15%;
 	padding: 25px;
 }
 

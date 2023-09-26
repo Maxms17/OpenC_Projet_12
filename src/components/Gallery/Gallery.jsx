@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Gallery.css';
 
-import Data from '../../data.json'; // Importe les données depuis le fichier JSON
+import Data from '../../data.json';
 
 function Gallery() {
-    // const limitedData = Data.slice(-6); // Obtient les 6 derniers éléments du tableau
 
     return (
+      <div className="Gallery">
+        <p>Portfolio</p>
         <div className="my-Gallery">
         {Data.map((data) => (
           <Link to={`/Projet/${data.id}`} className="carte" key={data.id}>
@@ -16,6 +17,7 @@ function Gallery() {
             </div>
           </Link>
         ))}
+        </div>
       </div>
     )
 }
