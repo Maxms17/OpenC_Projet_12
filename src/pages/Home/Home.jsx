@@ -1,17 +1,21 @@
 import React from "react"
 import Layout from "../../components/Layout"
-import ImageBanner from "../../components/ImageBanner/ImageBanner"
+import Description from "../../components/Description/Description"
 import Gallery from "../../components/Gallery/Gallery"
-
-import Image from '../../assets/Img_Accueil.jpg'
+import Competence from "../../components/Competence/Competence"
+import Experience from "../../components/Experience/Experience"
+import Formulaire from "../../components/Formulaire/Formulaire"
 
 import './Home.css'
 
 function Home() {
     return (
         <Layout>
-            <ImageBanner src={Image} para={ "Info Maxime" }/>
+            <Description para={ "Info Maxime" }/>
             <Gallery />
+            <Competence />
+            <Experience />
+            <Formulaire />
         </Layout>
     )
 }

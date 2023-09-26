@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../components/Layout"
-import ImageBanner from "../../components/ImageBanner/ImageBanner"
+import Description from "../../components/Description/Description"
 import Dropdown from '../../components/Dropdown/Dropdown';
 
 import Image from '../../assets/Img_Propos.jpg'
@@ -23,7 +23,7 @@ function Propos() {
 
     return (
         <Layout>
-            <ImageBanner src={Image}/>
+            <Description src={Image}/>
             <div className="panneau">
                 {datas.map((data, index) => (
                     <Dropdown key={index} title={data.title} para={data.para}/>
