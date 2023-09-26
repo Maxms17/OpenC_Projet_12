@@ -1,17 +1,14 @@
 import React from "react"
 import Layout from "../../components/Layout"
 
-import './Contact.css'
+import './CV.css'
 
-function Contact() {
-
+function CV() {
     return (
         <Layout>
-            <div className="panneau">
 
-            </div>
         </Layout>
     )
 }
 
-export default Contact
+export default CV

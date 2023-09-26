@@ -11,7 +11,7 @@ import './Home.css'
 function Home() {
     return (
         <Layout>
-            <Description para={ "Info Maxime" }/>
+            <Description />
             <Gallery />
             <Competence />
             <Experience />
