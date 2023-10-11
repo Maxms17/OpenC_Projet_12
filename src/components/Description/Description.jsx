@@ -1,8 +1,6 @@
 import React from 'react';
 import './Description.css';
 
-import logo from '../../assets/LOGO.svg';
-
 function Description() {
     return (
         <div className='description'>
@@ -21,7 +19,7 @@ function Description() {
                 </div>
             </div>
             <div className='image'>
-                <img src={logo} alt="My Image" />    
+                {/*<img src={} alt="My Image" />*/}
             </div>
         </div>
     )
