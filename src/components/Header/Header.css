@@ -6,8 +6,11 @@
 	align-items: center;
 }
 
+.my-name h1{
+	color: black;
+}
+
 nav{
-	width: 100%;
 	display: flex;
 	justify-content: right;
 	gap: 60px;

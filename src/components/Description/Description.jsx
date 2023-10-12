@@ -19,6 +19,7 @@ function Description() {
                 </div>
             </div>
             <div className='image'>
+                <p>logo</p>
                 {/*<img src={} alt="My Image" />*/}
             </div>
         </div>
