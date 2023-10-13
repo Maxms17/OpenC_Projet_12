@@ -7,13 +7,10 @@ function Header() {
 
     return (
         <div className='my-header'>
-            <div className='my-name'>
-                <h1>DREUX Maxime</h1>
-            </div>
             <nav>
-                <Link to="/" className={location.pathname === '/' ? 'active-link' : ''}>Accueil</Link>
+                <Link to="/" className={location.pathname === '/' ? 'active-link' : ''}>Portfolio</Link>
                 <Link to="/Contact" className={location.pathname === '/Contact' ? 'active-link' : ''}>Contact</Link>
-                <Link to="/CV" className={location.pathname === '/CV' ? 'active-link' : ''}>CV</Link>
+                <Link to="/CV" className={location.pathname === '/CV' ? 'active-link' : ''}>Curriculum Vitæ</Link>
             </nav>
         </div>
     );
