@@ -3,32 +3,37 @@ body {
 }
 
 .Erreur-404 p {
-    color: #FF6060;
     text-align: center;
     font-size: 288px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 .Erreur-text p{
-    color: #FF6060;
     font-size: 36px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    margin: 0px 0px 90px 0px;
 }
 
 .Erreur-lien p{
-    color: #FF6060;
     font-size: 18px;
-    font-family: Montserrat;
+}
+
+.Erreur-lien p, 
+.Erreur-text p{
     font-style: normal;
     font-weight: 500;
-    text-decoration-line: underline; 
+    text-decoration-line: none; 
     margin: 0px 0px 90px 0px;
+}
+
+.Erreur-lien p:hover{
+    color: #004EFF;
+    text-decoration-line: underline; 
+}
+
+.Erreur-lien a, 
+.Erreur-text p{
+    text-align: center;
 }
 
 #root {
