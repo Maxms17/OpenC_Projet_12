@@ -8,6 +8,8 @@ import Contact from './pages/Contact/Contact';
 import CV from './pages/CV/CV';
 import Erreur from './pages/Erreur/Erreur';
 
+import './index.css'
+
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement); 
 

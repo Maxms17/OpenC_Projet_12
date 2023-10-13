@@ -1,0 +1,101 @@
+
+.page-contact {
+    margin-left: 65px;;
+    display: flex;
+    gap: 10%;
+}
+
+.contact {
+    width: 50%;
+}
+
+.titre{
+
+}
+
+.titre-bleu{
+    text-align: center;
+}
+
+.titre-bleu h2{
+    padding-left: 0;
+    color: transparent; 
+    -webkit-text-stroke: 1px #004EFF; 
+    color: #F8F8F8;
+    font-size: 90px;
+    margin: 0;
+}
+
+.titre-noir{
+    text-align: center;
+    margin-top: -75px;
+}
+
+.titre-noir h2{
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    color: #333333;
+}
+
+.saisi{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 2%;
+    height: 40px;
+    width: 96%;
+    border: 1px solid #333333;
+}
+
+
+.saisi-message{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 2%;
+    height: 200px;
+    width: 96%;
+    border: 1px solid #333333;
+}
+
+.champ-saisi{
+    all: initial;
+    width: 90%;
+    background-color: #F8F8F8;
+    border: 0px;
+}
+
+.champ-saisi-text{
+    all: initial;
+    width: 96%;
+    background-color: #F8F8F8;
+    border: 0px;
+}
+
+.envoyer{
+    margin: 2%;
+    height: 40px;
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #F8F8F8;
+    width: 96%;
+}
+
+.info {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info h2{
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+    color: #333333;
+}
+
+.info p, .info h3 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
