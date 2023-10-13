@@ -103,9 +103,9 @@ class Message extends Component {
                     </div>
                     <div>
                         <h3>RESEAUX SOCIAUX</h3>
-                        <p>LINKEDIN</p>
-                        <p>INSTAGRAM</p>
-                        <p>GITHUB</p>
+                        <div><a href="https://linkedin.com/in/maxime-dreux">LINKEDIN</a></div>
+                        <div><a href="https://github.com/Maxms17">GITHUB</a></div>
+                        <div><a href="https://www.instagram.com/maxime.d7">INSTAGRAM</a></div>
                     </div>
                 </div>
                
