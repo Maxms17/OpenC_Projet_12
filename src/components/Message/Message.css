@@ -70,13 +70,22 @@ form{
     border: 0px;
 }
 
-.envoyer{
+.btn-envoyer{
+    display: flex;
     height: 40px;
-    background-color: #333333;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #333333;
+    background-color: #333333;
+    margin-bottom: 10%;
+}
+
+.btn-envoyer a:hover{
     color: #F8F8F8;
-    width: 100%;
-    margin-bottom: 5%;
+}
+
+.envoyer{
+    color: #F8F8F8;
 }
 
 .info {

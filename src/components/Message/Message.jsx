@@ -1,48 +1,27 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Message.css';
 
-class Message extends Component {
+function Message() {
 
-    constructor(props) {
-        super(props);
-        this.state = { 
-            name: '',
-            email: '',
-            message: '',
-        };
-    }
+    const email = "maximedreux@orange.fr";
 
-    handleInputChange = (event) => {
-        const { name, value } = event.target;
-        this.setState({ [name]: value });
+    const [objet, setObjet] = useState('');
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
+    
+    const handleObjetChange = (e) => {
+        setObjet(e.target.value);
     };
 
-    handleSubmit = (event) => {
-        event.preventDefault();
-
-        fetch('../../enregistrer_message.json', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(this.state),
-        })
-        .then((response) => response.json())
-        .then((data) => {
-            if (data.success) {
-                this.setState({
-                    name: '',
-                    email: '',
-                    message: '',
-                });
-            } else {
-                console.error('Error when saving the message');
-            }
-        });
+    const handleNameChange = (e) => {
+        setName(e.target.value);
     };
 
-    render() {
-        return (
+    const handleMessageChange = (e) => {
+        setMessage(e.target.value);
+    };
+
+    return (
             <div className='page-contact'>
                 <div className='contact'>
                     <div className='titre'>
@@ -53,44 +32,56 @@ class Message extends Component {
                             <h2>CONTACTEZ-MOI</h2>
                         </div>
                     </div>
-                    <form onSubmit={this.handleSubmit}>
+                    <form>
                         <div className="saisi">
-                            <label htmlFor="name">NOM :</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                value={this.state.name}
-                                onChange={this.handleInputChange}
-                                className='champ-saisi'
-                            />
-                        </div>
-                        <div className="saisi">
-                            <label htmlFor="email">EMAIL :</label>
+                            <label htmlFor="email">EMAIL : </label>
                             <input
                                 type="email"
                                 id="email"
                                 name="email"
-                                value={this.state.email}
-                                onChange={this.handleInputChange}
                                 className='champ-saisi'
+                                value={email}
+                            />
+                        </div>
+                        <div className="saisi">
+                            <label htmlFor="objet">OBJET : </label>
+                            <input
+                                type="text"
+                                id="objet"
+                                name="objet"
+                                className='champ-saisi'
+                                value={objet}
+                                onChange={handleObjetChange}
+                            />
+                        </div>
+                        <div className="saisi">
+                            <label htmlFor="name">NOM : </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                className='champ-saisi'
+                                value={name}
+                                onChange={handleNameChange}
                             />
                         </div>
                         <div className="saisi-message">
-                            <label htmlFor="message">MESSAGE :</label>
+                            <label htmlFor="message">MESSAGE : </label>
                             <textarea
                                 id="message"
                                 name="message"
-                                value={this.state.message}
-                                onChange={this.handleInputChange}
                                 rows={10}
                                 cols={5}
                                 className='champ-saisi-text'
+                                value={message}
+                                onChange={handleMessageChange}
                             />
                         </div>
-                        <button type="submit" className='envoyer'>ENVOYER</button>
+                        <div className="btn-envoyer">
+                            <a href={`mailto:maximedreux@orange.f?subject=${objet}&body=NOM : ${name} %0AMESSAGE : ${message}`} className='envoyer'>Envoyer</a>
+                        </div>
                     </form>
-                    </div>
+                </div>
                 <div className='info'>
                     <h2>CONTACT INFO</h2>
                     <div>
@@ -110,8 +101,7 @@ class Message extends Component {
                 </div>
                
             </div>
-        );
-    }
+    );
 }
 
 export default Message;
