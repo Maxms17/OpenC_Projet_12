@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/OpenC_Projet_12/static/css/main.a6fd633a.css",
+    "main.js": "/OpenC_Projet_12/static/js/main.fc3432cc.js",
+    "index.html": "/OpenC_Projet_12/index.html",
+    "static/media/Vectorfleche.svg": "/OpenC_Projet_12/static/media/Vectorfleche.4b8a8db56debe28d08d9e59e272bbc3c.svg",
+    "main.a6fd633a.css.map": "/OpenC_Projet_12/static/css/main.a6fd633a.css.map",
+    "main.fc3432cc.js.map": "/OpenC_Projet_12/static/js/main.fc3432cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6fd633a.css",
+    "static/js/main.fc3432cc.js"
+  ]
+}

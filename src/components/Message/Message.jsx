@@ -47,10 +47,10 @@ class Message extends Component {
                 <div className='contact'>
                     <div className='titre'>
                         <div className='titre-bleu'>
-                            <h2>CONTACTEZ-NOUS</h2>
+                            <h2>CONTACTEZ-MOI</h2>
                         </div>
                         <div className='titre-noir'>
-                            <h2>CONTACTEZ-NOUS</h2>
+                            <h2>CONTACTEZ-MOI</h2>
                         </div>
                     </div>
                     <form onSubmit={this.handleSubmit}>

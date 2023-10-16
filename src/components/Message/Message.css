@@ -9,10 +9,6 @@
     width: 50%;
 }
 
-.titre{
-
-}
-
 .titre-bleu{
     text-align: center;
 }
@@ -101,4 +97,13 @@ form{
     font-size: 18px;
     text-align: left;
     margin: 0;
+    color: #333333;
+}
+
+.info a {
+    text-decoration: underline;
+}
+
+.info a:hover {
+    color: #004EFF;
 }
