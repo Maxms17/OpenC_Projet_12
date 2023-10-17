@@ -28,8 +28,8 @@ function Gallery() {
         {Data.map((data) => (
           <Link to={`/Projet/${data.id}`} className="carte" key={data.id}>
             <div className="image-container" style={{ backgroundImage: `url(${data.cover})` }}>
-                <p>{data.title}</p>
             </div>
+            <p>{data.title}</p>
           </Link>
         ))}
         </div>

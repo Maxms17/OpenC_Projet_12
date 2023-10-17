@@ -58,7 +58,7 @@
 	justify-content: center;
 
 	border-radius: 25px;
-	background: #F6F6F6; 
+	background: #F8F8F8;
 
 	margin: 0% 15% 5% 15%;
 	padding: 25px;
@@ -78,7 +78,7 @@
 }
 
 .carte {
-	background: #FF6060; 
+	background: #004EFF; 
 	border-radius: 10px;
 
 	display: block;
