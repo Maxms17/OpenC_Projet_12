@@ -10,13 +10,14 @@
 
 .menu {
 	width: 100%;
-	background-color: #ff6060;
-	border: 1px solid #ff6060;
+	background-color: #004EFF;
+	border: 1px solid #004EFF;
 	border-radius: 5px;
 	font-size: 24px;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500; 
+	margin-bottom: 5%;
 }
 
 .arrow-container {
@@ -39,14 +40,18 @@
 	justify-content: space-between;
 }
 
+.title-container p{
+	color: #F8F8F8;
+}
+
 .sous-menu {
 	width: 100%;
-	background-color: #F6F6F6;
+	background-color: #F8F8F8;
 
 	list-style-type: none;
 	padding: 0;
 	margin: 0px 0px 10px 0px;
-	border: 1px solid #F6F6F6;
+	border: 1px solid #F8F8F8;
 	border-radius: 5px;
 
 	max-height: 0;
@@ -64,7 +69,7 @@
 .sous-menu p {
 	width: 95%;
 	text-align: left;
-	color: #ff6060;
+	color: #004EFF;
 	font-size: 24px;
 	font-family: Montserrat;
 	font-style: normal;

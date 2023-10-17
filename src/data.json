@@ -29,11 +29,10 @@
 		"title": "Projet 5 : Premiers pas sur le langage JavaScript",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 		"pictures": [
-			"../../assets/P5_1.png",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5_1.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5_2.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5_3.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5_4.png"
 		],
 		"description": "Ce projet a pour but de vous faire découvrir le langage JavaScript, très populaire parmi les développeurs web. Il est très guidé et vous accompagnera étape par étape dans l'acquisition des fondamentaux du langage. Vous l'utiliserez bientôt pour développer des sites plus ambitieux, mais dans un premier temps, faites vos premiers pas sur JavaScript... Idéalement, réaliser ce projet vous prendra 1 à 2 semaines maximum (si vous êtes à temps plein sur votre formation). Vous serez exclusivement accompagné par votre mentor, tant pour la réalisation des livrables que pour la soutenance, qui se fera sous forme de discussion.",
 		"host": {

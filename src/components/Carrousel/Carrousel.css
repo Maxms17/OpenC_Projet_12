@@ -1,23 +1,27 @@
 
 .carrousel {
     margin: 0;
+    margin-bottom: 4%;
     position: relative;
+    background-color: #333333;
+    min-height: 525px;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 .numerisation {
     position: absolute;
-    top: 80%;
+    top: 88%;
     left: 50%;
     display: block;
 }
   
 .numerisation p {
-    color: #FFF;
+    color: #F8F8F8;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500; 
+    font-size: 22px;
 }
 
 .Image_fleche_Gauche,
@@ -64,6 +68,9 @@
     .image-fond {
         height: 415px; 
     }
+    .carrousel {
+        min-height: 525px;
+    }
     .container {
         min-height: 415px;
     }
@@ -73,6 +80,9 @@
     .image-fond {
         height: 375px; 
     }
+    .carrousel {
+        min-height: 475px;
+    }
     .container {
         min-height: 375px;
     }
@@ -81,6 +91,9 @@
 @media (max-width: 780px) {
     .image-fond {
         height: 315px; 
+    }
+    .carrousel {
+        min-height: 415px;
     }
     .container {
         min-height: 315px;
@@ -93,6 +106,9 @@
 @media (max-width: 480px) {
     .image-fond {
         height: 215px; 
+    }
+    .carrousel {
+        min-height: 325px;
     }
     .container {
         min-height: 215px;
