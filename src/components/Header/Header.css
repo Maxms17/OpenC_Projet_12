@@ -51,24 +51,25 @@ a:hover {
 }
 
 @media (max-width: 780px) {
+	.my-header {
+		margin: 25px 20px 0px 25px;
+	}
 	nav{
 		gap: 40px;
 	}
 	a {
 		font-size: 18px;
-		text-transform: uppercase;
 	}
 }
 
 @media (max-width: 480px) {
 	.my-header {
-		margin: 25px 25px 20px 25px;
+		margin: 25px 20px 0px 25px;
 	}
 	nav{
-		gap: 30px;
+		gap: 26px;
 	}
 	a {
 		font-size: 14px;
-		text-transform: uppercase;
 	}
 }

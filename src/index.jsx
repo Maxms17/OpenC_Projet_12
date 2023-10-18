@@ -21,7 +21,7 @@ root.render(
         <Route path="/Projet/:id" element={<Projet />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/CV" element={<CV />} />
-        <Route path="*" element={<Erreur />} />
+        <Route path="/*" element={<Erreur />} />
       </Routes>
     </Router>
   </React.StrictMode>

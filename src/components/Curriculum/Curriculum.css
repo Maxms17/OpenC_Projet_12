@@ -35,19 +35,8 @@
     padding: 0% 10%;
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     margin-top: -6%;
-}
-
-.text {
-    display: flex;
-}
-
-.text p{
-    display: flex;
-    color: #333333;
-    text-align: center;
-    align-items: center;
 }
 
 .logo-bleu{

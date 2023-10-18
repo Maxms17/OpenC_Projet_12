@@ -23,7 +23,7 @@
 	.my-footer{
 		gap: 28px;
 	}
-	p {
+	.my-footer p {
 		font-size: 20px;
 	}
 }
@@ -32,7 +32,7 @@
 	.my-footer{
 		gap: 22px;
 	}
-	p {
+	.my-footer p {
 		font-size: 20px;
 	}
 }
@@ -41,7 +41,7 @@
 	.my-footer{
 		gap: 20px;
 	}
-	p {
+	.my-footer p {
 		font-size: 18px;
 	}
 }
@@ -50,7 +50,7 @@
 	.my-footer{
 		gap: 18px;
 	}
-	p {
-		font-size: 18px;
+	.my-footer p {
+		font-size: 14px;
 	}
 }

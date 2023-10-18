@@ -15,9 +15,6 @@ function Curriculum() {
                 </div>
             </div>
             <div className='container-text'>
-                <div className='text'>
-                    <p>text en dessous du cv</p>
-                </div>
                 <div className='logo-bleu'>
                     <img src={LogoBleu} alt="Logo Bleu" className='image' />
                 </div>
