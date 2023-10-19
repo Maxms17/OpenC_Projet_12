@@ -25,10 +25,10 @@ function Message() {
             <div className='page-contact'>
                 <div className='contact'>
                     <div className='titre'>
-                        <div className='titre-bleu-C'>
+                        <div className='titre-bleu-M'>
                             <h2>CONTACTEZ-MOI</h2>
                         </div>
-                        <div className='titre-noir-C'>
+                        <div className='titre-noir-M'>
                             <h2>CONTACTEZ-MOI</h2>
                         </div>
                     </div>
