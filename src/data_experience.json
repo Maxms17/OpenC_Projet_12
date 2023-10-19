@@ -30,7 +30,7 @@
   {
     "id": 3,
     "titre": "Front-End",
-    "entreprise": "Nom de l'entreprise 1",
+    "entreprise": "Nom de l'entreprise 3",
     "poste": "Poste 1",
     "dateDebut": "Janvier 2020",
     "dateFin": "Mars 2021",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "titre": "Front-End",
-    "entreprise": "Nom de l'entreprise 2",
+    "entreprise": "Nom de l'entreprise 4",
     "poste": "Poste 2",
     "dateDebut": "Avril 2021",
     "dateFin": "Juin 2022",
