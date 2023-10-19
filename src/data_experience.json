@@ -1,19 +1,59 @@
 [
-    {
-      "id": 1,
-      "entreprise": "Nom de l'entreprise 1",
-      "poste": "Poste 1",
-      "dateDebut": "Janvier 2020",
-      "dateFin": "Mars 2021",
-      "description": "Description de l'expérience 1..."
-    },
-    {
-      "id": 2,
-      "entreprise": "Nom de l'entreprise 2",
-      "poste": "Poste 2",
-      "dateDebut": "Avril 2021",
-      "dateFin": "Juin 2022",
-      "description": "Description de l'expérience 2..."
-    }
+  {
+    "id": 1,
+    "titre": "Front-End",
+    "entreprise": "Nom de l'entreprise 1",
+    "poste": "Poste 1",
+    "dateDebut": "Janvier 2020",
+    "dateFin": "Mars 2021",
+    "description": "Description de l'expérience 1...",
+    "tag": [
+      "HTML",
+      "CSS",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": 2,
+    "titre": "Front-End",
+    "entreprise": "Nom de l'entreprise 2",
+    "poste": "Poste 2",
+    "dateDebut": "Avril 2021",
+    "dateFin": "Juin 2022",
+    "description": "Description de l'expérience 2...",
+    "tag": [
+      "HTML",
+      "CSS",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": 3,
+    "titre": "Front-End",
+    "entreprise": "Nom de l'entreprise 1",
+    "poste": "Poste 1",
+    "dateDebut": "Janvier 2020",
+    "dateFin": "Mars 2021",
+    "description": "Description de l'expérience 1...",
+    "tag": [
+      "HTML",
+      "CSS",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": 4,
+    "titre": "Front-End",
+    "entreprise": "Nom de l'entreprise 2",
+    "poste": "Poste 2",
+    "dateDebut": "Avril 2021",
+    "dateFin": "Juin 2022",
+    "description": "Description de l'expérience 2...",
+    "tag": [
+      "HTML",
+      "CSS",
+      "GITHUB"
+    ]
+  }
 ]
   

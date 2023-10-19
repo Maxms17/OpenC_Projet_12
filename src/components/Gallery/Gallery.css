@@ -52,7 +52,7 @@
 .my-Gallery {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 50px 60px;
+	gap: 80px 60px;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -78,36 +78,37 @@
 }
 
 .carte {
-	background: #004EFF; 
+	background: #F8F8F8;
 	border-radius: 10px;
 
 	display: block;
 	width: calc(30.33% - 10px); /* Ajuste la largeur pour afficher maximum 3 cartes par ligne */
 	flex-direction: column;
 	justify-content: flex-end; 
+	border: 2px solid;
 }
 
 .carte p {
-	position: relative;
-	top: 85%;
 	text-align: left;
 	padding: 10px;
-	color: #F8F8F8;
+	color: #333333;
 	font-size: 18px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 500;
 	margin: 0;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
+	color: #333333;
+}
+
+.tilte-container{
+	margin-bottom: 5%;
 }
 
 /* Responsive */
 
-@media (max-width: 1510px) {
+@media (max-width: 1690px) {
 	.image-container {
 		height: 100%; 
 	}
@@ -171,7 +172,7 @@ a:hover {
 		
 	}
 	.my-Gallery {
-		gap: 20px 20px;
+		gap: 75px 20px;
 		background: #FFF; 
 		padding: 0px;
 	}
@@ -195,7 +196,7 @@ a:hover {
 		height: 180px; 
 	}
 	.my-Gallery {
-		gap: 20px 0px;
+		gap: 50px 0px;
 		background: #FFF; 
 		padding: 0px;
 	}

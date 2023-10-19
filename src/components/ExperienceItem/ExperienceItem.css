@@ -1,0 +1,18 @@
+
+.experience-item {
+    margin: 0% 5%;
+    width: 90%;
+    border: 1px solid #333333;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* L'ombre */
+}
+
+.experience-item h3{
+    color: #333333;
+}
+
+.experience-item p{
+    color: #333333;
+}

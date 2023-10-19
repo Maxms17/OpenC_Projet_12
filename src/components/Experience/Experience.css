@@ -1,4 +1,34 @@
 
+.experience-title h2{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 2%;
+    font-size: 40px;
+}
+
 .experience{
-    background-color: black;
+    background-color: #F8F8F8; 
+    color: #333333;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-experience{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-right: 40%;
+    padding-right: 10%;
+    border-right: 1px solid #333333;
+}
+
+.i-experience{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: 40%;
+    padding-left: 10%;
+    border-left: 1px solid #333333;
 }

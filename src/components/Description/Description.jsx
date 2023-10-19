@@ -1,6 +1,8 @@
 import React from 'react';
 import './Description.css';
 
+import LogoBleu from '../../assets/logo-bleu.png'
+
 function Description() {
     return (
         <div className='description'>
@@ -17,6 +19,9 @@ function Description() {
                         <p>GITHUB</p>  
                     </div>
                 </div>
+            </div>
+            <div className='logo-intro'>
+                <img src={LogoBleu} alt="Logo Bleu" className='image-intro' />
             </div>
         </div>
     )

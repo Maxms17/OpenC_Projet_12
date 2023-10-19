@@ -28,8 +28,12 @@ function Gallery() {
         {Data.map((data) => (
           <Link to={`/Projet/${data.id}`} className="carte" key={data.id}>
             <div className="image-container" style={{ backgroundImage: `url(${data.cover})` }}>
+
             </div>
-            <p>{data.title}</p>
+            <div className="tilte-container">
+              <p>{data.title}</p>
+            </div>
+            
           </Link>
         ))}
         </div>

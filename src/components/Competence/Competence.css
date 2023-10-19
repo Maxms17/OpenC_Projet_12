@@ -1,0 +1,89 @@
+
+.competence{
+    background-color: #333333;
+    color: #F8F8F8; 
+    margin: 10% 0%;
+    padding: 2% 0%;
+}
+
+.competence h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.End{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+
+.front{
+
+}
+
+.front h2{
+    font-size: 18px;
+    color: #F8F8F8; 
+}
+
+.front p{
+    font-size: 14px;
+    color: #F8F8F8; 
+}
+
+.back{
+
+}
+
+.back h2{
+    font-size: 18px;
+    color: #F8F8F8; 
+}
+
+.back p{
+    font-size: 14px;
+    color: #F8F8F8; 
+}
+
+
+.travaille{
+    margin-left: 15%;
+}
+
+.travaille h2{
+    font-size: 18px;
+    color: #F8F8F8; 
+}
+
+.travaille p{
+    font-size: 14px;
+    color: #F8F8F8; 
+}
+
+.services{
+    margin-left: 15%;
+}
+
+.services h2{
+    font-size: 18px;
+    color: #F8F8F8; 
+}
+
+.services p{
+    font-size: 14px;
+    color: #F8F8F8; 
+}
+
+.outils{
+    margin-left: 15%;
+}
+
+.outils h2{
+    font-size: 18px;
+    color: #F8F8F8; 
+}
+
+.outils p{
+    font-size: 14px;
+    color: #F8F8F8; 
+}
