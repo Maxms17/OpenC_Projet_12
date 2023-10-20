@@ -13,10 +13,10 @@ function Description() {
                 <p>Passioné par le web, je suis devenu intégrateur web</p>
                 <div className='lien-intro'>
                     <div className='linkedin'>
-                        <p>LinkedIn</p>
+                        <a href="https://linkedin.com/in/maxime-dreux">LINKEDIN</a>
                     </div>
                     <div className='github'>
-                        <p>GITHUB</p>  
+                        <a href="https://github.com/Maxms17">GITHUB</a> 
                     </div>
                 </div>
             </div>

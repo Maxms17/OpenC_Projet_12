@@ -43,17 +43,19 @@ h4 {
 	height: auto;
 	border: 2px solid #F8F8F8; 
 	text-align: center;
+	padding: 5px;
 }
 
 .linkedin:hover{
 	background-color: #F8F8F8; 
 }
 
-.linkedin p{
+.linkedin a{
+	font-size: 18px;
 	color: #F8F8F8; 
 }
 
-.linkedin:hover p{
+.linkedin:hover a{
 	color: #333333; 
 }
 
@@ -62,17 +64,19 @@ h4 {
 	height: auto;
 	border: 2px solid #F8F8F8; 
 	text-align: center;
+	padding: 5px;
 }
 
 .github:hover{
 	background-color: #F8F8F8; 
 }
 
-.github p{
+.github a{
+	font-size: 18px;
 	color: #F8F8F8; 
 }
 
-.github:hover p{
+.github:hover a{
 	color: #333333; 
 }
 
