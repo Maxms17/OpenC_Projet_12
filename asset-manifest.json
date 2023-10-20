@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OpenC_Projet_12/static/css/main.2894b7ea.css",
-    "main.js": "/OpenC_Projet_12/static/js/main.cef687d6.js",
+    "main.css": "/OpenC_Projet_12/static/css/main.35a21723.css",
+    "main.js": "/OpenC_Projet_12/static/js/main.3dd77310.js",
     "static/media/logo-bleu.png": "/OpenC_Projet_12/static/media/logo-bleu.e787f1d531345a449fc1.png",
     "index.html": "/OpenC_Projet_12/index.html",
     "static/media/Vectorfleche.svg": "/OpenC_Projet_12/static/media/Vectorfleche.4b8a8db56debe28d08d9e59e272bbc3c.svg",
-    "main.2894b7ea.css.map": "/OpenC_Projet_12/static/css/main.2894b7ea.css.map",
-    "main.cef687d6.js.map": "/OpenC_Projet_12/static/js/main.cef687d6.js.map"
+    "main.35a21723.css.map": "/OpenC_Projet_12/static/css/main.35a21723.css.map",
+    "main.3dd77310.js.map": "/OpenC_Projet_12/static/js/main.3dd77310.js.map"
   },
   "entrypoints": [
-    "static/css/main.2894b7ea.css",
-    "static/js/main.cef687d6.js"
+    "static/css/main.35a21723.css",
+    "static/js/main.3dd77310.js"
   ]
 }
