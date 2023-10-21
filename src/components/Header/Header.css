@@ -25,9 +25,9 @@ a {
 	font-weight: 500;
 }
 
-a:hover {
+.my-header a:hover {
 	color: #004EFF;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* Responsive */

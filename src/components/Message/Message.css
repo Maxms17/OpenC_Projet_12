@@ -79,6 +79,18 @@ form{
     margin-bottom: 10%;
 }
 
+.btn-envoyer:active {
+    background-color: #004EFF; 
+}
+
+.btn-envoyer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .btn-envoyer a:hover{
     color: #F8F8F8;
 }
