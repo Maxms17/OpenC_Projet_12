@@ -3,31 +3,56 @@
 	height: auto;
 	margin-top: 5%;
 	width: 100%;
-	background-color: #333333;
+	background-color: #F8F8F8; 
 	align-items: center;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 10%;
+}
+
+.image-intro{
+    width: 25%;
+}
+
+.contour-bleu{
+	margin: 0 5% 0 0 ;
+	width: 62%;
+	height: 140px;
+	border: 2px solid #004EFF;
+}
+
+.contour-noir{
+	margin: -40% 0 0 5% ;
+	width: 62%;
+	height: 140px;
+	border: 2px solid #333333;
+	background-color: #F8F8F8; 
+}
+
+.image-profil{
+	margin: -40% 0 0 0 ;
+    width: 70%;
 }
 
 h1 {
 	font-size: 44px;
 	margin: 0;
-	color: #F8F8F8; 
+	color: #333333; 
 }
 
 h2 {
 	font-size: 40px;
 	margin: 0;
-	color: #F8F8F8; 
+	color: #333333; 
 }
 
 h4 {
 	font-size: 20px;
-	color: #F8F8F8; 
+	color: #333333;  
 }
 
 .intro p {
-	color: #F8F8F8; 
+	color: #333333; 
 	font-size: 18px;
   	font-weight: 300;
 }
@@ -41,51 +66,41 @@ h4 {
 .linkedin {
 	width: 30%;
 	height: auto;
-	border: 2px solid #F8F8F8; 
+	border: 2px solid #333333;
 	text-align: center;
 	padding: 5px;
 }
 
 .linkedin:hover{
-	background-color: #F8F8F8; 
+	background-color: #333333;
 }
 
 .linkedin a{
 	font-size: 18px;
-	color: #F8F8F8; 
+	color: #333333;
 }
 
 .linkedin:hover a{
-	color: #333333; 
+	color: #F8F8F8; 
 }
 
 .github {
 	width: 30%;
 	height: auto;
-	border: 2px solid #F8F8F8; 
+	border: 2px solid #333333;
 	text-align: center;
 	padding: 5px;
 }
 
 .github:hover{
-	background-color: #F8F8F8; 
+	background-color: #333333; 
 }
 
 .github a{
 	font-size: 18px;
-	color: #F8F8F8; 
+	color: #333333;
 }
 
 .github:hover a{
-	color: #333333; 
-}
-
-.logo-intro{
-	margin-top: 3%;
-    width: 25%;
-    transform: rotate(56deg);
-}
-
-.image-intro{
-    width: 70%;
+	color: #F8F8F8; 
 }

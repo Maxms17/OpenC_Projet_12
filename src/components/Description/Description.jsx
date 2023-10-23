@@ -1,11 +1,16 @@
 import React from 'react';
 import './Description.css';
 
-import LogoBleu from '../../assets/logo-bleu.png'
+import LogoBleu from '../../assets/profil-max.png'
 
 function Description() {
     return (
         <div className='description'>
+            <div className='image-intro'>
+                <div className='contour-bleu'></div>
+                <img src={LogoBleu} alt="Maxime DREUX" className='image-profil' />
+                <div className='contour-noir'></div>
+            </div>
             <div className='intro'>
                 <h1>DREUX</h1>
                 <h2>Maxime</h2>
@@ -19,9 +24,6 @@ function Description() {
                         <a href="https://github.com/Maxms17">GITHUB</a> 
                     </div>
                 </div>
-            </div>
-            <div className='logo-intro'>
-                <img src={LogoBleu} alt="Logo Bleu" className='image-intro' />
             </div>
         </div>
     )
