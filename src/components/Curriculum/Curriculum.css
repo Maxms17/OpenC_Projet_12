@@ -192,4 +192,8 @@
     .container-bleu p {
         font-size: 10px;
     }
+    .image {
+        padding-top: 25px;
+        padding-left: 20px;
+    }
 }
