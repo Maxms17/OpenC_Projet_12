@@ -3,13 +3,17 @@ import './Description.css';
 
 import LogoBleu from '../../assets/profil-max.png'
 
+import LogoLink from '../../assets/linkedin_icon.svg';
+import LogoGit from '../../assets/github_icon.svg';
+import LogoInsta from '../../assets/instagram_icon.svg';
+
 function Description() {
     return (
         <div className='description'>
             <div className='image-intro'>
                 <div className='contour-bleu'></div>
-                <img src={LogoBleu} alt="Maxime DREUX" className='image-profil' />
                 <div className='contour-noir'></div>
+                <img src={LogoBleu} alt="Maxime DREUX" className='image-profil' />
             </div>
             <div className='intro'>
                 <h1>DREUX</h1>
@@ -17,12 +21,24 @@ function Description() {
                 <h4>Intégrateur Web - Développeur Front-End</h4>
                 <p>Passioné par le web, je suis devenu intégrateur web</p>
                 <div className='lien-intro'>
-                    <div className='linkedin'>
-                        <a href="https://linkedin.com/in/maxime-dreux">LINKEDIN</a>
-                    </div>
-                    <div className='github'>
-                        <a href="https://github.com/Maxms17">GITHUB</a> 
-                    </div>
+                    <a className='a-link' href="https://linkedin.com/in/maxime-dreux">
+                        <div className='linkedin'>
+                            <img src={LogoLink} alt="Linkedin" className='image-res' />
+                            LINKEDIN
+                        </div>
+                    </a>
+                    <a className='a-git' href="https://github.com/Maxms17">
+                        <div className='github'>
+                            <img src={LogoGit} alt="Github" className='image-res' />
+                            GITHUB
+                        </div>
+                    </a> 
+                    <a className='a-insta' href="https://www.instagram.com/maxime.d7">
+                        <div className='instagram'>
+                            <img src={LogoInsta} alt="Instagram" className='image-res' />
+                            INSTAGRAM
+                        </div>
+                    </a>  
                 </div>
             </div>
         </div>

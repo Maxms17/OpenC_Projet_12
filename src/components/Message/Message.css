@@ -122,6 +122,7 @@ form{
 }
 
 .info-reseaux {
+    margin-top: 5px;
     display: flex;
 }
 

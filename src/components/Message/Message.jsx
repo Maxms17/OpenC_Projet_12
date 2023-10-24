@@ -95,22 +95,24 @@ function Message() {
                     <h3>EMAIL</h3>
                     <p>maximedreux@orange.fr</p>
                 </div>
-                <div className='info-reseaux'>
+                <div>
                     <h3>RESEAUX SOCIAUX</h3>
-                    <div>
-                        <a href="https://linkedin.com/in/maxime-dreux">
-                            <img src={LogoLink} alt="Linkedin" className='image-info' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/Maxms17">
-                            <img src={LogoGit} alt="Github" className='image-info' />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.instagram.com/maxime.d7">
-                            <img src={LogoInsta} alt="Instagram" className='image-info' />
-                        </a>
+                    <div className='info-reseaux'>
+                        <div>
+                            <a href="https://linkedin.com/in/maxime-dreux">
+                                <img src={LogoLink} alt="Linkedin" className='image-info' />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Maxms17">
+                                <img src={LogoGit} alt="Github" className='image-info' />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/maxime.d7">
+                                <img src={LogoInsta} alt="Instagram" className='image-info' />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
