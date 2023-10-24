@@ -124,6 +124,7 @@ form{
 .info-reseaux {
     margin-top: 5px;
     display: flex;
+    gap: 10px;
 }
 
 .image-info {

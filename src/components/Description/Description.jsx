@@ -1,7 +1,7 @@
 import React from 'react';
 import './Description.css';
 
-import LogoBleu from '../../assets/profil-max.png'
+import LogoBleu from '../../assets/profil-max2.png';
 
 import LogoLink from '../../assets/linkedin_icon.svg';
 import LogoGit from '../../assets/github_icon.svg';
