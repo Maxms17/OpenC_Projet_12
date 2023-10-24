@@ -114,20 +114,19 @@ form{
 }
 
 .info p, 
-.info h3, 
-.info a {
+.info h3{
     font-size: 22px;
     text-align: left;
     margin: 0;
     color: #333333;
 }
 
-.info a {
-    text-decoration: underline;
+.info-reseaux {
+    display: flex;
 }
 
-.info a:hover {
-    color: #004EFF;
+.image-info {
+    width: 32px;
 }
 
 /* Responsive */
@@ -174,8 +173,7 @@ form{
         font-size: 24px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 20px;
     }
     .champ-saisi{
@@ -202,8 +200,7 @@ form{
         font-size: 24px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 20px;
     }
 }
@@ -225,8 +222,7 @@ form{
         font-size: 24px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 20px;
     }
 }
@@ -247,8 +243,7 @@ form{
         font-size: 22px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 18px;
     }
 }
@@ -270,8 +265,7 @@ form{
         font-size: 20px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 16px;
     }
 }
@@ -292,8 +286,7 @@ form{
         font-size: 18px;
     }
     .info p, 
-    .info h3, 
-    .info a {
+    .info h3{
         font-size: 14px;
     }
 }
