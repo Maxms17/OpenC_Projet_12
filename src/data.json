@@ -22,7 +22,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "JavaScript"
 	},
 	{
 		"id": "2",
@@ -47,7 +48,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "JavaScript"
 	},
 	{
 		"id": "3",
@@ -73,7 +75,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "JavaScript"
 	},
 	{
 		"id": "4",
@@ -99,7 +102,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "JavaScript"
 	},
 	{
 		"id": "5",
@@ -125,7 +129,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "JavaScript"
 	},
 	{
 		"id": "6",
@@ -147,7 +152,8 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "React"
 	},
 	{
 		"id": "7",
@@ -171,6 +177,7 @@
 			"HTML",
 			"CSS",
 			"GITHUB"
-		]
+		],
+		"categorie": "React"
 	}
 ]

@@ -49,6 +49,29 @@
     width: 70%;
 }
 
+.trie{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.trie button{
+	padding: 10px;
+	font-size: 20px;
+	background-color: #333333;
+	color: #F8F8F8;
+	border: 1px solid #333333;
+}
+
+.trie button:hover{
+	padding: 10px;
+	font-size: 20px;
+	background-color: #F8F8F8;
+	border: 1px solid #333333;
+	color: #004EFF;
+}
+
+
 .my-Gallery {
 	display: flex;
 	flex-wrap: wrap;
