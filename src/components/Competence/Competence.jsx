@@ -9,7 +9,7 @@ function Competence() {
       <div className='End'>
         <div className='front'>
           <h2>FRONT-END</h2>
-          <p>HTML 5, CSS 3, JAVASCRIPT, REACT</p>
+          <p>HTML 5, CSS 3, JAVASCRIPT</p>
         </div>
         <div className='back'>
           <h2>BACK-END</h2>
@@ -18,7 +18,7 @@ function Competence() {
       </div>
       <div className='travaille'>
         <h2>J'ai pu travailler avec</h2>
-        <p>TYPESCRIPT, REACT NATVIE, JQUERY, NEXT.JS</p>
+        <p>TYPESCRIPT, REACT, JQUERY, NEXT.JS</p>
       </div>
       <div className='services'>
         <h2>J'ai utilisé ces services</h2>
