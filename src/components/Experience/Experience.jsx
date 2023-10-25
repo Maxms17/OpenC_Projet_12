@@ -13,12 +13,12 @@ function Experience() {
             <div className="experience">
                 {experienceData.map((experience, index) => (
                     <div key={experience.id} className={cssClasses[index % cssClasses.length]}>
-                        <ExperienceItem experience={experience} />
+                        <ExperienceItem experience={experience} /> 
+                        <div className='trait-noir'></div>
                     </div>
                 ))}
             </div>
         </div>
-
     );
 }
 

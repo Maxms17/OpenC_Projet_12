@@ -2,7 +2,7 @@
 .experience-title h2{
     text-align: center;
     color: #333333;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-size: 40px;
 }
 
@@ -13,22 +13,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .p-experience{
     display: flex;
     justify-content: center;
-    width: 30%;
+    flex-direction: row;
+    width: 40%;
+    border-right: 2px solid #004EFF;
     margin-right: 40%;
-    padding-right: 10%;
-    border-right: 1px solid #333333;
 }
 
 .i-experience{
     display: flex;
     justify-content: center;
-    width: 30%;
+    flex-direction: row-reverse;
+    width: 40%; 
+    border-left: 2px solid #004EFF;
     margin-left: 40%;
-    padding-left: 10%;
-    border-left: 1px solid #333333;
+}
+
+.trait-noir{
+    margin-top: 25%;
+    border-top: 2px solid #004EFF;
+    width: 50%;
 }

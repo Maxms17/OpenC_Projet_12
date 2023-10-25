@@ -1,7 +1,6 @@
 
 .experience-item {
-    margin: 0% 5%;
-    width: 90%;
+    width: 95%;
     border: 1px solid #333333;
 
     padding: 20px;
@@ -10,7 +9,7 @@
 }
 
 .experience-item h3{
-    color: #333333;
+    color: #004EFF;
 }
 
 .experience-item p{
