@@ -17,13 +17,24 @@
     margin: 5% 0%;
 }
 
-.front{
-
+.front-tilte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.front h2{
+.front-tilte h2{
     font-size: 18px;
     color: #F8F8F8; 
+    padding-bottom: 35px;
+}
+
+.front{
+    width: 300px;
+    height: 300px;
+    border: 4px dashed #004EFF;
+    border-radius: 50%;
+    display: flex;
 }
 
 .front p{
@@ -31,13 +42,50 @@
     color: #F8F8F8; 
 }
 
-.back{
-
+.col-gauche,
+.col-droite {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: start; 
+    padding-top: 40px;
 }
 
-.back h2{
+.col-gauche {
+    justify-content: start; 
+}
+
+.col-droite {
+    justify-content: end; 
+}
+
+.col-milieu {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: end; 
+    justify-content: center; 
+    padding: 10px;
+}
+
+.back-tilte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-tilte h2{
     font-size: 18px;
     color: #F8F8F8; 
+    padding-bottom: 35px;
+}
+
+.back{
+    width: 300px;
+    height: 300px;
+    border: 4px dashed #004EFF;
+    border-radius: 50%;
+    display: flex;
 }
 
 .back p{
@@ -45,9 +93,43 @@
     color: #F8F8F8; 
 }
 
+.trait-blanc {
+    margin: -13% 25% 16% 25%;
+    border-top: 3px solid #F8F8F8;
+    position: relative;
+}
+  
+.trait-blanc::after {
+    content: '•';
+    position: absolute;
+    width: 50px;
+    top: -28px;
+    font-size: 60px;
+    left: 0; /* Position initiale à gauche */
+    color: #004EFF;
+    animation: deplacementPoint 10s linear infinite; /* Animation du point */
+}
+  
+@keyframes deplacementPoint {
+    0% {
+      left: 0; /* Position initiale à gauche */
+    }
+    50% {
+      left: 98%; /* Déplacement au milieu */
+    }
+    100% {
+      left: 0; /* Retour à la position initiale à gauche */
+    }
+}
+
+.Comp-icon {
+    display: flex;
+    gap: 15px;
+}
 
 .travaille{
     margin-left: 15%;
+    margin-bottom: 3%;
 }
 
 .travaille h2{
@@ -62,6 +144,7 @@
 
 .services{
     margin-left: 15%;
+    margin-bottom: 3%;
 }
 
 .services h2{
@@ -76,6 +159,7 @@
 
 .outils{
     margin-left: 15%;
+    margin-bottom: 3%;
 }
 
 .outils h2{
