@@ -1,5 +1,5 @@
 .curriculum {
-    width: 100%;
+    width: auto;
 }
 
 .titre {
@@ -51,37 +51,41 @@
 }
 
 .container-bleu {
-    margin: 5% 10% 10% 10%;
-    padding: 10%;
+    margin: 5%;
+    padding: 6%;
     background-color: #333333;
     border-radius: 25px;
 }
 
 .container-bleu h1{
-    font-size: 44px;
+    font-size: 68px;
     margin: 0;
     color: #F8F8F8;
 }
 
 .container-bleu h2{
-    margin-top: 8%;
-    font-size: 20px;
+    margin: 30px 0 20px 0;
+    font-size: 42px;
     color: #F8F8F8;
 }
 
 .container-bleu h3{
-    font-size: 18px;
+    font-size: 34px;
     color: #F8F8F8;
+    margin: 20px 0 15px 0;
+    font-weight: 500;
 }
 
 .container-bleu h4{
-    font-size: 16px;
+    font-size: 26px;
     color: #F8F8F8;
+    margin: 10px 0 10px 0;
 }
 
 .container-bleu p {
-    font-size: 14px;
+    font-size: 20px;
     color: #F8F8F8;
+    margin: 10px 0;
 }
 
 .contenaire-icone {
@@ -95,7 +99,6 @@
 }
 
 .lien-cv {
-	width: 125%;
 	display: flex;
 	gap: 20px;
 	margin: 10px 0;
@@ -154,13 +157,28 @@
     text-align: center;
 }
 
+.liste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-liste {
+    width: 50%;
+}
+
 .compétence-col {
     display: flex;
     justify-content: space-between;
 }
 
+.colonne-end {
+    width: 10%;
+}
+
 .colonne {
-    width: 20%;
+    width: 25%;
 }
 
 /* Responsive */
@@ -206,6 +224,21 @@
         font-size: 28px;
         margin-top: 40px;
     }
+    .liste {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .div-liste {
+        width: 100%;
+    }
+    .compétence-col {
+        flex-direction: column;
+    }
+    .colonne-end,
+    .colonne {
+        width: 100%;
+    }
 }
 
 @media (max-width: 750px) {
@@ -217,19 +250,19 @@
         margin-top: 50px;
     }
     .container-bleu h1{
-        font-size: 30px;
+        font-size: 55px;
     }
     .container-bleu h2{
-        font-size: 18px;
+        font-size: 35px;
     }
     .container-bleu h3{
-        font-size: 16px;
+        font-size: 30px;
     }
     .container-bleu h4{
-        font-size: 16px;
+        font-size: 28px;
     }
     .container-bleu p {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .lien-cv {
@@ -300,19 +333,19 @@
         margin-top: 50px;
     }
     .container-bleu h1{
-        font-size: 20px;
+        font-size: 45px;
     }
     .container-bleu h2{
-        font-size: 16px;
+        font-size: 30px;
     }
     .container-bleu h3{
-        font-size: 14px;
+        font-size: 25px;
     }
     .container-bleu h4{
-        font-size: 14px;
+        font-size: 22px;
     }
     .container-bleu p {
-        font-size: 10px;
+        font-size: 18px;
     }
     .image {
         padding-top: 25px;
