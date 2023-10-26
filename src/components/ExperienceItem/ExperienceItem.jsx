@@ -7,10 +7,9 @@ function ExperienceItem({ experience }) {
         <div className="experience-item">
           <h3>{experience.entreprise}</h3>
           <p>{experience.titre}</p>
-          <p>{experience.poste}</p>
           <p>{experience.dateDebut} - {experience.dateFin}</p>
           <p>{experience.description}</p>
-          <p>{experience.tag.join('  ')}</p>
+          <p>{experience.tag.join(', ')}</p>
         </div>
       );
 }

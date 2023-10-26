@@ -35,7 +35,70 @@
 }
 
 .trait-noir{
-    margin-top: 25%;
+    margin-top: 15%;
     border-top: 2px solid #004EFF;
     width: 50%;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1560px) {
+
+}
+
+@media (max-width: 1310px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+@media (max-width: 910px) {
+
+}
+
+@media (max-width: 750px) {
+    .p-experience{
+        width: 80%;
+        border-right: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .i-experience{
+        width: 80%;
+        border-left: 0;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .trait-noir {
+        margin-top: 0;
+        border-top: 0;
+        width: 0;
+    }
+}
+
+@media (max-width: 582px) {
+    .p-experience{
+        width: 80%;
+        border-right: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .i-experience{
+        width: 80%;
+        border-left: 0;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .trait-noir {
+        margin-top: 0;
+        border-top: 0;
+        width: 0;
+    }
+}
+
+@media (max-width: 500px) {
+
 }

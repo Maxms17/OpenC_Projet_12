@@ -1,58 +1,63 @@
 [
   {
     "id": 1,
-    "titre": "Front-End",
-    "entreprise": "Nom de l'entreprise 1",
-    "poste": "Poste 1",
-    "dateDebut": "Janvier 2020",
-    "dateFin": "Mars 2021",
-    "description": "Description de l'expérience 1...",
+    "titre": "Formation Intégrateur Web",
+    "entreprise": "OpenClassroom",
+    "dateDebut": "Février 2023",
+    "dateFin": "Novembre 2023",
+    "description": "....",
     "tag": [
       "HTML",
       "CSS",
-      "GITHUB"
+      "JavaScript",
+      "React",
+      "GITHUB",
+      "Responsive"
     ]
   },
   {
     "id": 2,
-    "titre": "Front-End",
-    "entreprise": "Nom de l'entreprise 2",
-    "poste": "Poste 2",
-    "dateDebut": "Avril 2021",
+    "titre": "2eme année de licence Informatique",
+    "entreprise": "Université du Mans",
+    "dateDebut": "Septembre 2021",
     "dateFin": "Juin 2022",
-    "description": "Description de l'expérience 2...",
+    "description": "....",
     "tag": [
       "HTML",
       "CSS",
-      "GITHUB"
+      "JavaScript",
+      "Php",
+      "C",
+      "GITHUB",
+      "Responsive"
     ]
   },
   {
     "id": 3,
-    "titre": "Front-End",
-    "entreprise": "Nom de l'entreprise 3",
-    "poste": "Poste 1",
-    "dateDebut": "Janvier 2020",
-    "dateFin": "Mars 2021",
-    "description": "Description de l'expérience 3...",
+    "titre": "1ere année de licence Informatique",
+    "entreprise": "Université du Mans",
+    "dateDebut": "Septembre 2020",
+    "dateFin": "Juin 2021",
+    "description": "....",
     "tag": [
       "HTML",
       "CSS",
-      "GITHUB"
+      "JavaScript",
+      "Responsive"
     ]
   },
   {
     "id": 4,
     "titre": "Front-End",
     "entreprise": "Nom de l'entreprise 4",
-    "poste": "Poste 2",
     "dateDebut": "Avril 2021",
     "dateFin": "Juin 2022",
-    "description": "Description de l'expérience 4...",
+    "description": "....",
     "tag": [
       "HTML",
       "CSS",
-      "GITHUB"
+      "JavaScript",
+      "Python"
     ]
   }
 ]
