@@ -116,3 +116,34 @@ h4 {
 	width: 28px;
     text-align: center;
 }
+
+
+/* Responsive */
+
+@media (max-width: 1560px) {
+
+}
+
+@media (max-width: 1310px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+@media (max-width: 910px) {
+
+}
+
+@media (max-width: 750px) {
+
+}
+
+@media (max-width: 582px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
