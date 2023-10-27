@@ -91,7 +91,7 @@ function Curriculum() {
                         </div>
                     </div>
                 </div>
-                <h2>Expérience Professionnelles</h2>
+                <h2>Expériences Professionnelles</h2>
                 <div>
                     <h3>Agent SONO, Vendeur conseil et Agent d'escale</h3>
                     <h4>SNCF - LE MANS ET ANGERS, ÉTÉ 2022 - ÉTÉ 2021 - ÉTÉ 2020</h4>
@@ -160,17 +160,16 @@ function Curriculum() {
                             <p>    React</p>
                             <p>    TypeScript</p>
                             <p>    Sass</p>
-                            <p>    React</p>
                             <p>    Système de gestion de base de données</p>
                             <p>    MySQL</p>
                             <p>    Github</p>
                         </div>
                         <div className='colonne'>
-                            <h4> ? </h4>
+                            <h4> Gestion projet </h4>
                             <p>    Conception web</p>
                             <p>    Utilisation de logiciel informatique</p>
                             <p>    Analyser et répondre aux demandes d'un client</p>
-                            <p>    Concevoir et réaliser un proje</p>
+                            <p>    Concevoir et réaliser un projer</p>
                         </div>
                     </div>
                 </div>
