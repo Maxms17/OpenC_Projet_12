@@ -34,19 +34,23 @@
     width: 70%;
 }
 
-h1 {
+.intro {
+	padding: 20px 0;
+}
+
+.intro h1 {
 	font-size: 44px;
 	margin: 0;
 	color: #F8F8F8;  
 }
 
-h2 {
+.intro h2 {
 	font-size: 40px;
 	margin: 0;
 	color: #F8F8F8; 
 }
 
-h4 {
+.intro h4 {
 	font-size: 20px;
 	color: #F8F8F8;   
 }
@@ -120,30 +124,227 @@ h4 {
 
 /* Responsive */
 
-@media (max-width: 1560px) {
+@media (max-width: 1700px) {
+	.contour-noir {
+		margin-top: -32%;
+	}
+	.image-profil {
+		margin-top: -60%;
+	}
+	.intro {
+		padding: 20px 0;
+	}
+}
 
+@media (max-width: 1560px) {
+	.contour-noir {
+		margin-top: -32%;
+	}
+	.image-profil {
+		margin-top: -60%;
+	}
 }
 
 @media (max-width: 1310px) {
-
+	.contour-noir {
+		margin-top: -40%;
+	}
+	.image-profil {
+		margin-top: -60%;
+	}
 }
 
 @media (max-width: 1080px) {
-
+	.contour-noir {
+		margin-top: -50%;
+		margin-left: 8%;
+	}
+	.image-profil {
+		margin-top: -65%;
+	}
+	.contour-bleu {
+		margin-right: 8%;
+	}
+	.intro h1 {
+		font-size: 30px;
+	}
+	.intro h2 {
+		font-size: 28px;
+	}
+	.intro h4 {
+		font-size: 18px;
+	}
+	.intro p {
+		font-size: 16px;
+	}
+	.lien-intro a {
+		font-size: 16px;
+	}
+	.image-res {
+		width: 20px;
+	}
+	.linkedin {
+		gap: 8px;
+		padding: 8px;
+	}
+	.github {
+		gap: 8px;
+		padding: 8px;
+	}
+	.instagram {
+		gap: 8px;
+		padding: 8px;
+	}
 }
 
 @media (max-width: 910px) {
-
+	.contour-noir {
+		height: 120px;
+		margin-top: -50%;
+		margin-left: 8%;
+	}
+	.image-profil {
+		margin-top: -70%;
+	}
+	.contour-bleu {
+		height: 120px;
+		margin-right: 8%;
+	}
+	.intro h1 {
+		font-size: 24px;
+	}
+	.intro h2 {
+		font-size: 20px;
+	}
+	.intro h4 {
+		font-size: 18px;
+	}
+	.intro p {
+		font-size: 16px;
+	}
+	.lien-intro {
+		width: 100%;
+		margin-top: 10%;
+	}
+	.lien-intro a {
+		font-size: 16px;
+	}
+	.image-res {
+		width: 16px;
+	}
+	.linkedin {
+		gap: 6px;
+		padding: 6px;
+	}
+	.github {
+		gap: 6px;
+		padding: 6px;
+	}
+	.instagram {
+		gap: 6px;
+		padding: 6px;
+	}
 }
 
-@media (max-width: 750px) {
-
+@media (max-width: 770px) {
+	.contour-noir {
+		height: 120px;
+		margin-top: -60%;
+		margin-left: 8%;
+	}
+	.image-profil {
+		margin-top: -70%;
+	}
+	.contour-bleu {
+		height: 120px;
+		margin-right: 8%;
+	}
+	.intro h1 {
+		font-size: 24px;
+	}
+	.intro h2 {
+		font-size: 20px;
+	}
+	.intro h4 {
+		font-size: 18px;
+	}
+	.intro p {
+		font-size: 16px;
+	}
+	.lien-intro {
+		width: 100%;
+		margin-top: 10%;
+	}
+	.lien-intro a {
+		font-size: 16px;
+	}
+	.image-res {
+		width: 16px;
+	}
+	.linkedin {
+		gap: 6px;
+		padding: 6px;
+	}
+	.github {
+		gap: 6px;
+		padding: 6px;
+	}
+	.instagram {
+		gap: 6px;
+		padding: 6px;
+	}
 }
 
-@media (max-width: 582px) {
-
+@media (max-width: 650px) {
+	.description {
+		flex-direction: column;
+		gap: 10%;
+	}
+	.contour-noir {
+		border: 0px;
+		display: none
+	}
+	.contour-bleu {
+		border: 0px;
+		display: none
+	}
+	.image-intro {
+		width: 70%;
+	}
+	.image-profil {
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
 }
 
 @media (max-width: 500px) {
+	.image-intro {
+		width: 50%;
+	}
+}
 
+@media (max-width: 400px) {
+	.image-intro {
+		width: 50%;
+	}
+	.intro {
+		padding: 20px;
+	}
+	.intro h1 {
+		font-size: 20px;
+	}
+	.intro h2 {
+		font-size: 18px;
+	}
+	.intro h4 {
+		font-size: 18px;
+	}
+	.intro p {
+		font-size: 16px;
+	}
+	.lien-intro {
+		flex-direction: column;
+		gap: 10px;
+	}
 }
