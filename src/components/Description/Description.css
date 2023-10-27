@@ -11,6 +11,7 @@
 }
 
 .image-intro{
+	padding-top: 40px;
     width: 25%;
 }
 
@@ -130,6 +131,9 @@
 	}
 	.image-profil {
 		margin-top: -60%;
+	}
+	.image-intro{
+		padding-top: 0px;
 	}
 	.intro {
 		padding: 20px 0;

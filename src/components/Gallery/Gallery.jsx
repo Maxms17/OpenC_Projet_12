@@ -23,16 +23,16 @@ function Gallery() {
     return (
       <div className="Gallery">
         <div className='titre'>
-          <div className='titre-bleu'>
+          <div className='titre-bleu-P'>
             <h2>PORTFOLIO</h2>
           </div>
-          <div className='titre-noir'>
+          <div className='titre-noir-P'>
             <h2>PORTFOLIO</h2>
           </div>
         </div>
         <div className='container-text-portfolio'>
           <div className='logo-bleu-droite'>
-              <img src={LogoBleu} alt="Logo Bleu" className='image' />
+              <img src={LogoBleu} alt="Logo Bleu" className='image-P' />
           </div>
         </div>
 
