@@ -174,9 +174,11 @@
 		"title": "Projet 11 : Implémentez le front-end d'une application bancaire avec React",
 		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-3.jpg"
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_1.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_2.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_3.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_4.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_5.png"
 		],
 		"description": "Je viens d’intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Je travail avec Mila, la cheffe de projet, pour la mise en place du tableau de bord des utilisateurs. Mon travail est de créer l’application web complet et responsive avec React. Comme point de départ, on m'a fourni le HTML statique et le CSS pour la page d'accueil, la page de connexion et la page de profil. Je dois utiliser Redux pour gérer le state de l'ensemble de l'application. L’utilisateur doit pouvoir réaliser ces fonctionnalités : l'utilisateur peut visiter la page d'accueil; l'utilisateur peut se connecter au système; l'utilisateur peut se déconnecter du système; l'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès; l’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo. ",
 		"host": {
