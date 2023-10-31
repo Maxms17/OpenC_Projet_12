@@ -56,6 +56,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 20px;
+	margin-top: 5%;
 	margin-bottom: 15px;
 }
 
@@ -104,7 +105,7 @@
 }
 
 .carte {
-	height: 260px;
+	height: 360px;
 	background: #F8F8F8;
 	border-radius: 10px;
 	position: relative;
@@ -153,12 +154,19 @@ a:hover {
 	left: 0;
 }
 
-
 /* Responsive */
+
+@media (max-width: 1900px) {
+	.image-container {
+		margin-top: 10%;
+		height: 90%; 
+	}
+}
 
 @media (max-width: 1690px) {
 	.image-container {
-		height: 100%; 
+		margin-top: 0;
+		height: 90%; 
 	}
 	.carte p {
 		top: 80%;
@@ -172,6 +180,10 @@ a:hover {
 }
 
 @media (max-width: 1560px) {
+	.image-container {
+		margin-top: 10%;
+		height: 90%; 
+	}
     .titre-bleu-P h2{
         font-size: 75px;
     }
@@ -184,7 +196,18 @@ a:hover {
 	}
 }
 
+@media (max-width: 1410px) {
+	.image-container {
+		margin-top: 20%;
+		height: 80%; 
+	}
+}
+
 @media (max-width: 1310px) {
+	.image-container {
+		margin-top: 20%;
+		height: 80%; 
+	}
     .titre-bleu-P h2{
         font-size: 65px;
     }
@@ -202,7 +225,8 @@ a:hover {
 
 @media (max-width: 1260px) {
 	.image-container {
-		height: 100%; 
+		margin-top: 40%;
+		height: 60%; 
 	}
 	.carte p {
 		top: 60%;
@@ -216,6 +240,10 @@ a:hover {
 }
 
 @media (max-width: 1080px) {
+	.image-container {
+		margin-top: 20%;
+		height: 80%; 
+	}
 	.titre-bleu-P h2{
         font-size: 55px;
     }
@@ -226,9 +254,6 @@ a:hover {
 	.image-P {
 		padding-bottom: 40px;
     }
-	.image-container {
-		height: 100%; 
-	}
 	.carte p {
 		top: 60%;
 		padding: 10px;
@@ -236,11 +261,22 @@ a:hover {
 		font-weight: 300;
 	}
 	.carte {
-		width: calc(40% - 10px);
+		width: calc(42% - 10px);
+	}
+}
+
+@media (max-width: 990px) {
+	.image-container {
+		margin-top: 30%;
+		height: 70%; 
 	}
 }
 
 @media (max-width: 910px) {
+	.image-container {
+		margin-top: 40%;
+		height: 60%; 
+	}
     .titre-bleu-P h2{
         font-size: 45px;
         margin-top: 20px;
@@ -260,7 +296,8 @@ a:hover {
 
 @media (max-width: 780px) {
 	.image-container {
-		height: 100%; 
+		margin-top: 40%;
+		height: 40%; 
 	}
 	.carte p {
 		top: 60%;
@@ -273,12 +310,25 @@ a:hover {
 		background: #F8F8F8;
 		padding: 0px;
 	}
+	.trie {
+		gap: 10px;
+		margin-top: 3%;
+		margin-bottom: 10px;
+	}
+	.trie button {
+		padding: 6px;
+		font-size: 16px;
+	}
 	.carte {
 		width: calc(30% - 10px);
 	}
 }
 
 @media (max-width: 750px) {
+	.image-container {
+		margin-top: 0;
+		height: 100%;
+	}
     .titre-bleu-P h2{
         font-size: 35px;
     }
@@ -294,6 +344,21 @@ a:hover {
 	}
 }
 
+
+@media (max-width: 670px) {
+	.image-container {
+		margin-top: 10%;
+		height: 90%;
+	}
+}
+
+@media (max-width: 640px) {
+	.image-container {
+		margin-top: 15%;
+		height: 85%;
+	}
+}
+
 @media (max-width: 582px) {
     .titre-bleu-P h2{
         font-size: 30px;
@@ -305,12 +370,32 @@ a:hover {
 	.image-P {
 		padding-bottom: 20px;
     }
+	.trie {
+		flex-direction: column;
+		margin: 4% 25%;
+		gap: 20px;
+	}
+	.trie button {
+		padding: 6px;
+		font-size: 16px;
+	}
 	.carte {
 		width: calc(80%);  
 	}
 }
 
+@media (max-width: 550px) {
+	.image-container {
+		margin-top: 20%;
+		height: 80%;
+	}
+}
+
 @media (max-width: 500px) {
+	.image-container {
+		margin-top: 20%;
+		height: 80%;
+	}
     .titre-bleu-P h2{
         visibility: hidden;
     }
@@ -328,7 +413,8 @@ a:hover {
 
 @media (max-width: 480px) {
 	.image-container {
-		height: 100%; 
+		margin-top: 20%;
+		height: 80%;
 	}
 	.my-ImageBanner img {
 		height: 100px
@@ -346,5 +432,33 @@ a:hover {
 		gap: 50px 0px;
 		background: #F8F8F8;
 		padding: 0px;
+	}
+}
+
+@media (max-width: 440px) {
+	.image-container {
+		margin-top: 25%;
+		height: 75%;
+	}
+}
+
+@media (max-width: 400px) {
+	.image-container {
+		margin-top: 35%;
+		height: 65%;
+	}
+}
+
+@media (max-width: 365px) {
+	.image-container {
+		margin-top: 40%;
+		height: 60%;
+	}
+}
+
+@media (max-width: 335px) {
+	.image-container {
+		margin-top: 50%;
+		height: 50%;
 	}
 }

@@ -38,8 +38,11 @@ function Gallery() {
 
         <div className='trie'>
           <button onClick={() => handleCategoryChange('Tous')}>Tous</button>
+          <button onClick={() => handleCategoryChange('HtmlCss')}>HTML & CSS</button>
           <button onClick={() => handleCategoryChange('JavaScript')}>JavaScript</button>
           <button onClick={() => handleCategoryChange('React')}>React</button>
+          <button onClick={() => handleCategoryChange('Débogage')}>Débogage</button>
+          <button onClick={() => handleCategoryChange('Référencement')}>Référencement</button>
         </div>
 
         <div className="my-Gallery">

@@ -9,7 +9,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
-		"description": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.",
+		"description": "Pour ce projet, j'avais intégré une start-up 'Ohmyfood' en tant que développeur junior. Il voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. J'avais pour mission de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. ",
 		"host": {
 			"name": "Maxime DREUX"
 		},
@@ -23,7 +23,7 @@
 			"CSS",
 			"GITHUB"
 		],
-		"categorie": "JavaScript"
+		"categorie": "HtmlCss"
 	},
 	{
 		"id": "2",
@@ -35,18 +35,20 @@
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5/P5_3.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5/P5_4.png"
 		],
-		"description": "Ce projet a pour but de vous faire découvrir le langage JavaScript, très populaire parmi les développeurs web. Il est très guidé et vous accompagnera étape par étape dans l'acquisition des fondamentaux du langage. Vous l'utiliserez bientôt pour développer des sites plus ambitieux, mais dans un premier temps, faites vos premiers pas sur JavaScript... Idéalement, réaliser ce projet vous prendra 1 à 2 semaines maximum (si vous êtes à temps plein sur votre formation). Vous serez exclusivement accompagné par votre mentor, tant pour la réalisation des livrables que pour la soutenance, qui se fera sous forme de discussion.",
+		"description": "Ce projet avait pour but de me faire découvrir le langage JavaScript, très populaire parmi les développeurs web. Il était très guidé et m'a permis l'acquisition des fondamentaux du langage.",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_5.git",
 		"competence": [
-			"Mobil First",
+			"JavaScript",
+			"Algorithmes",
 			"Responsive"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"JavaScript",
 			"GITHUB"
 		],
 		"categorie": "JavaScript"
@@ -62,18 +64,21 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-5.jpg"
 		],
-		"description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+		"description": "Pour ce projet, je travaillais comme développeur front-end pour l’agence 'ArchiWebos'. J'ai été envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. J'ai pour mission de développer : la page de présentation des travaux de l'architecte; la page de connexion de l'administrateur du site; la modale permettant d'uploader de nouveaux médias. ",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_6.git",
 		"competence": [
-			"Mobil First",
+			"JavaScript",
+			"Algorithmes",
+			"API",
 			"Responsive"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"JavaScript",
 			"GITHUB"
 		],
 		"categorie": "JavaScript"
@@ -89,21 +94,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-6.jpg"
 		],
-		"description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+		"description": "L'agence, Kasa m'a recruté en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. J'avais pour mission de démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives).",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_8.git",
 		"competence": [
-			"Mobil First",
+			"Html",
+			"Css",
+			"React",
 			"Responsive"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"React",
 			"GITHUB"
 		],
-		"categorie": "JavaScript"
+		"categorie": "React"
 	},
 	{
 		"id": "5",
@@ -116,21 +124,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
 		],
-		"description": "Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Vous avez ensuite pris contact avec les administrateurs des sites qui peuvent être optimisés pour leur proposer vos services. ",
+		"description": "Je suis développeur freelance et je décide de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. J'ai ensuite pris contact avec les administrateurs des sites qui peuvent être optimisés pour leur proposer mes services. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont ma a parlé l’un de mes amis. Après une la réalisation d'un audit de son site, je lui propose d'optimiser les images du site : des images trop lourdes rendent la page très longue à charger. Et d'optimiser le code et sa structure afin d’améliorer le chargement et l’accessibilité du site. Elle souhaite également amélioré son référencement grace au référencement local en utilisant Schema.org et l'ajoute des metas pour les réseaux sociaux. ",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_9.git",
 		"competence": [
-			"Mobil First",
-			"Responsive"
+			"SEO",
+			"Optimisation",
+			"Référencement",
+			"Rapport d’optimisation"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"SEO",
 			"GITHUB"
 		],
-		"categorie": "JavaScript"
+		"categorie": "Référencement"
 	},
 	{
 		"id": "6",
@@ -139,21 +150,24 @@
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg"
 		],
-		"description": "Vous êtes développeur front-end freelance, et l’agence évènementielle 724events vous contacte pour une mission. L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait donc appel à vous pour finaliser le travail.",
+		"description": "Je suis développeur front-end freelance, et l’agence événementielle 724events ma contacté pour une mission. L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait appel à mes services pour finaliser le travail. J'ai également rédigé un cahier de recette. ",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_10.git",
 		"competence": [
-			"Mobil First",
-			"Responsive"
+			"Débogage",
+			"Test Unitaire",
+			"Cahier Recette",
+			"One-page"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"Débogage",
 			"GITHUB"
 		],
-		"categorie": "React"
+		"categorie": "Débogage"
 	},
 	{
 		"id": "7",
@@ -164,18 +178,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-2.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-3.jpg"
 		],
-		"description": "Vous venez d’intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Vous travaillez avec Mila, la cheffe de projet, pour la mise en place du tableau de bord des utilisateurs. ",
+		"description": "Je viens d’intégrer Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Je travail avec Mila, la cheffe de projet, pour la mise en place du tableau de bord des utilisateurs. Mon travail est de créer l’application web complet et responsive avec React. Comme point de départ, on m'a fourni le HTML statique et le CSS pour la page d'accueil, la page de connexion et la page de profil. Je dois utiliser Redux pour gérer le state de l'ensemble de l'application. L’utilisateur doit pouvoir réaliser ces fonctionnalités : l'utilisateur peut visiter la page d'accueil; l'utilisateur peut se connecter au système; l'utilisateur peut se déconnecter du système; l'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès; l’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo. ",
 		"host": {
 			"name": "Maxime DREUX"
 		},
 		"lien": "https://github.com/Maxms17/OpenC_Projet_11.git",
 		"competence": [
-			"Mobil First",
-			"Responsive"
+			"Html",
+			"Css",
+			"React",
+			"Redux",
+			"Api",
+			"Responsive",
+			"Green Code"
 		],
 		"tags": [
 			"HTML",
 			"CSS",
+			"React",
 			"GITHUB"
 		],
 		"categorie": "React"
