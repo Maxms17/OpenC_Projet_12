@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/OpenC_Projet_12" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Projet/:id" element={<Projet />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/CV" element={<CV />} />
