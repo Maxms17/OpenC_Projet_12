@@ -148,7 +148,12 @@
 		"title": "Projet 10 : Débuggez le site d'une agence d'événementiel",
 		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
 		"pictures": [
-			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_1.png"
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_1.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_2.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_3.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_4.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_5.png",
+			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_6.png"
 		],
 		"description": "Je suis développeur front-end freelance, et l’agence événementielle 724events ma contacté pour une mission. L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait appel à mes services pour finaliser le travail. J'ai également rédigé un cahier de recette. ",
 		"host": {
