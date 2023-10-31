@@ -14,7 +14,7 @@ function Erreur() {
                 <p>Oups! La page que vous demandez n'existe pas.</p>
             </div>
             <div className="Erreur-lien">
-                <Link to={`/Portfolio`}>
+                <Link to={`/`}>
                     <p>Retourner sur la page d'accueil</p>
                 </Link>
             </div>

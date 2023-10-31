@@ -97,8 +97,8 @@
     color: #333333;
 }
 
-.icone-comp {
-    color: #F8F8F8;
+.Comp-icon-tilte {
+    align-items: center;
 }
 
 .trait-blanc {
@@ -167,7 +167,6 @@
 }
 
 .travaille h2{
-    margin-bottom: 25px;
     font-size: 18px;
     color: #F8F8F8; 
 }
@@ -183,7 +182,6 @@
 }
 
 .services h2{
-    margin-bottom: 25px;
     font-size: 18px;
     color: #F8F8F8; 
 }
@@ -199,7 +197,6 @@
 }
 
 .outils h2{
-    margin-bottom: 25px;
     font-size: 18px;
     color: #F8F8F8; 
 }
