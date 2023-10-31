@@ -33,12 +33,12 @@
 }
   
 .Image_fleche_Gauche {
-    left: 16%;
+    left: 15%;
     transform: rotate(-90deg);
 }
   
 .Image_fleche_Droite {
-    right: 16%;
+    right: 15%;
     transform: rotate(90deg);
 }
 
