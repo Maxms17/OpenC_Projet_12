@@ -23,6 +23,7 @@ root.render(
         <Route path="/CV" element={<CV />} />
         {/* Route "catch-all" pour rediriger vers la page d'erreur */}
         <Route path="*" element={<Erreur />} />
+        <Route path="/Projet/*" element={<Erreur />} />
       </Routes>
     </Router>
   </React.StrictMode>
