@@ -15,9 +15,9 @@ const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/OpenC_Projet_12">
       <Routes>
-        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Projet/:id" element={<Projet />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/CV" element={<CV />} />
