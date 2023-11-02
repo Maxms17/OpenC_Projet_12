@@ -21,7 +21,6 @@ root.render(
         <Route path="/Projet/:id" element={<Projet />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/CV" element={<CV />} />
-        {/* Route "catch-all" pour rediriger vers la page d'erreur */}
         <Route path="*" element={<Erreur />} />
       </Routes>
     </Router>
