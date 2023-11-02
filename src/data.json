@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Projet 4 : Améliorez l'interface d'un site mobile avec des animations CSS",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P4.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P4/P4_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P4/P4_2.png",
@@ -30,7 +30,7 @@
 	{
 		"id": "2",
 		"title": "Projet 5 : Premiers pas sur le langage JavaScript",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P5.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5/P5_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P5/P5_2.png",
@@ -58,7 +58,7 @@
 	{
 		"id": "3",
 		"title": "Projet 6 : Créez une page web dynamique avec JavaScript",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P6.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P6/P6_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P6/P6_2.png",
@@ -88,7 +88,7 @@
 	{
 		"id": "4",
 		"title": "Projet 8 : Créez une application web de location immobilière avec React",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P8.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P8/P8_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P8/P8_2.png",
@@ -118,7 +118,7 @@
 	{
 		"id": "5",
 		"title": "Projet 9 : Optimisez le référencement d'un site de photographe",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P9.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P9/P9_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P9/P9_2.png",
@@ -148,7 +148,7 @@
 	{
 		"id": "6",
 		"title": "Projet 10 : Débuggez le site d'une agence d'événementiel",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P10.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P10/P10_2.png",
@@ -179,7 +179,7 @@
 	{
 		"id": "7",
 		"title": "Projet 11 : Implémentez le front-end d'une application bancaire avec React",
-		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/ordi.jpg",
+		"cover": "https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/Mockup/Acc_P11.png",
 		"pictures": [
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_1.png",
 			"https://raw.githubusercontent.com/Maxms17/OpenC_Projet_12/main/src/assets/P11/P11_2.png",
