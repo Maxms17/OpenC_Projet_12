@@ -66,6 +66,7 @@
 	background-color: #333333;
 	color: #F8F8F8;
 	border: 1px solid #333333;
+	border-radius: 10px;
 }
 
 .trie button:hover{
