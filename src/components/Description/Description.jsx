@@ -19,7 +19,7 @@ function Description() {
                 <h1>DREUX</h1>
                 <h2>Maxime</h2>
                 <h4>Intégrateur Web - Développeur Front-End</h4>
-                <p>Passioné par le web, je suis devenu intégrateur web</p>
+                <p>Passionné par le web, je suis devenu intégrateur web</p>
                 <div className='lien-intro'>
                     <a className='a-link' href="https://linkedin.com/in/maxime-dreux">
                         <div className='linkedin'>
