@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OpenC_Projet_12/static/css/main.c3a80d43.css",
+    "main.css": "/OpenC_Projet_12/static/css/main.4bb29a54.css",
     "main.js": "/OpenC_Projet_12/static/js/main.b67612ff.js",
     "static/media/logo-bleu.png": "/OpenC_Projet_12/static/media/logo-bleu.e787f1d531345a449fc1.png",
     "static/media/profil-max2.png": "/OpenC_Projet_12/static/media/profil-max2.ab02ec113d1b149d3158.png",
@@ -22,11 +22,11 @@
     "static/media/css.svg": "/OpenC_Projet_12/static/media/css.0b435e818710854aebd35efe9280f77c.svg",
     "static/media/github_icon.svg": "/OpenC_Projet_12/static/media/github_icon.255db585f8a0eb28a1e4deb91bde207d.svg",
     "static/media/Vectorfleche.svg": "/OpenC_Projet_12/static/media/Vectorfleche.4b8a8db56debe28d08d9e59e272bbc3c.svg",
-    "main.c3a80d43.css.map": "/OpenC_Projet_12/static/css/main.c3a80d43.css.map",
+    "main.4bb29a54.css.map": "/OpenC_Projet_12/static/css/main.4bb29a54.css.map",
     "main.b67612ff.js.map": "/OpenC_Projet_12/static/js/main.b67612ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a80d43.css",
+    "static/css/main.4bb29a54.css",
     "static/js/main.b67612ff.js"
   ]
 }
