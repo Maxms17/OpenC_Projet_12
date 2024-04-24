@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OpenC_Projet_12/static/css/main.4bb29a54.css",
-    "main.js": "/OpenC_Projet_12/static/js/main.b67612ff.js",
+    "main.css": "/OpenC_Projet_12/static/css/main.c3a80d43.css",
+    "main.js": "/OpenC_Projet_12/static/js/main.a7a31562.js",
     "static/media/logo-bleu.png": "/OpenC_Projet_12/static/media/logo-bleu.e787f1d531345a449fc1.png",
     "static/media/profil-max2.png": "/OpenC_Projet_12/static/media/profil-max2.ab02ec113d1b149d3158.png",
     "static/media/mysql.svg": "/OpenC_Projet_12/static/media/mysql.c48ab2a418139e523b45c52f2c190026.svg",
@@ -18,15 +18,14 @@
     "static/media/html.svg": "/OpenC_Projet_12/static/media/html.10a58682adde3b5e6f2be37de92758cf.svg",
     "index.html": "/OpenC_Projet_12/index.html",
     "static/media/linkedin_icon.svg": "/OpenC_Projet_12/static/media/linkedin_icon.189a288e29a6d95aba8128714d961ff7.svg",
-    "static/media/instagram_icon.svg": "/OpenC_Projet_12/static/media/instagram_icon.a356a1ae04f338f26a23c64c854b2a62.svg",
     "static/media/css.svg": "/OpenC_Projet_12/static/media/css.0b435e818710854aebd35efe9280f77c.svg",
     "static/media/github_icon.svg": "/OpenC_Projet_12/static/media/github_icon.255db585f8a0eb28a1e4deb91bde207d.svg",
     "static/media/Vectorfleche.svg": "/OpenC_Projet_12/static/media/Vectorfleche.4b8a8db56debe28d08d9e59e272bbc3c.svg",
-    "main.4bb29a54.css.map": "/OpenC_Projet_12/static/css/main.4bb29a54.css.map",
-    "main.b67612ff.js.map": "/OpenC_Projet_12/static/js/main.b67612ff.js.map"
+    "main.c3a80d43.css.map": "/OpenC_Projet_12/static/css/main.c3a80d43.css.map",
+    "main.a7a31562.js.map": "/OpenC_Projet_12/static/js/main.a7a31562.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb29a54.css",
-    "static/js/main.b67612ff.js"
+    "static/css/main.c3a80d43.css",
+    "static/js/main.a7a31562.js"
   ]
 }
