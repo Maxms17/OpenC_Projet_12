@@ -15,7 +15,7 @@ function Description() {
                 <img src={LogoBleu} alt="Maxime DREUX" className='image-profil' />
             </div>
             <div className='intro'>
-                <h1>DREUX</h1>
+                <h1>DREUX</h1> 
                 <h2>Maxime</h2>
                 <h4>Intégrateur Web - Développeur Front-End</h4>
                 <p>Passionné par le web, je suis devenu intégrateur web</p>
