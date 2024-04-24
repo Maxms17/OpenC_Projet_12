@@ -20,18 +20,18 @@ function Description() {
                 <h4>Intégrateur Web - Développeur Front-End</h4>
                 <p>Passionné par le web, je suis devenu intégrateur web</p>
                 <div className='lien-intro'>
-                    <a className='a-link' target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/maxime-dreux">
+                    <a className='a-link' href="https://linkedin.com/in/maxime-dreux" target="_blank" rel="noopener noreferrer">
                         <div className='linkedin'>
                             <img src={LogoLink} alt="Linkedin" className='image-res' />
                             LINKEDIN
                         </div>
                     </a>
-                    <a className='a-git' target="_blank" rel="noopener noreferrer" href="https://github.com/Maxms17">
+                    <a className='a-git' href="https://github.com/Maxms17" target="_blank" rel="noopener noreferrer">
                         <div className='github'>
                             <img src={LogoGit} alt="Github" className='image-res' />
                             GITHUB
                         </div>
-                    </a> 
+                    </a>
                 </div>
             </div>
         </div>
