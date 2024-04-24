@@ -5,7 +5,6 @@ import LogoBleu from '../../assets/profil-max2.png';
 
 import LogoLink from '../../assets/linkedin_icon.svg';
 import LogoGit from '../../assets/github_icon.svg';
-import LogoInsta from '../../assets/instagram_icon.svg';
 
 function Description() {
     return (
@@ -33,12 +32,6 @@ function Description() {
                             GITHUB
                         </div>
                     </a> 
-                    <a className='a-insta' href="https://www.instagram.com/maxime.d7">
-                        <div className='instagram'>
-                            <img src={LogoInsta} alt="Instagram" className='image-res' />
-                            INSTAGRAM
-                        </div>
-                    </a>  
                 </div>
             </div>
         </div>
