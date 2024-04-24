@@ -3,7 +3,6 @@ import './Message.css';
 
 import LogoLink from '../../assets/linkedin_icon.svg';
 import LogoGit from '../../assets/github_icon.svg';
-import LogoInsta from '../../assets/instagram_icon.svg';
 
 function Message() {
     const email = "maximedreux@orange.fr";
@@ -106,11 +105,6 @@ function Message() {
                         <div>
                             <a href="https://github.com/Maxms17">
                                 <img src={LogoGit} alt="Github" className='image-info' />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://www.instagram.com/maxime.d7">
-                                <img src={LogoInsta} alt="Instagram" className='image-info' />
                             </a>
                         </div>
                     </div>

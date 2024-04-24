@@ -8,7 +8,6 @@ import LogoBleu from '../../assets/logo-bleu.png'
 
 import LogoLink from '../../assets/linkedin_icon.svg';
 import LogoGit from '../../assets/github_icon.svg';
-import LogoInsta from '../../assets/instagram_icon.svg';
 
 function Curriculum() {
     return (
@@ -60,12 +59,6 @@ function Curriculum() {
                             GITHUB
                         </div>
                     </a> 
-                    <a className='a-insta-cv' href="https://www.instagram.com/maxime.d7">
-                        <div className='instagram-cv'>
-                            <img src={LogoInsta} alt="Instagram" className='image-cv' />
-                            INSTAGRAM
-                        </div>
-                    </a>  
                 </div>
                 <h2>Langues</h2>
                 <div>
